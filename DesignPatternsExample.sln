@@ -3,8 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreationalPatterns", "CreationalPatterns", "{06B48DF3-EA4E-4A7B-B64D-61820FE1E2C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StructuralPatterns", "StructuralPatterns", "{354BE581-3A31-46D0-9D3E-FE8B07768CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{E9F40A56-1B4F-45C5-A83E-518C69F1971A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactorySample", "AbstractFactorySample\AbstractFactorySample.csproj", "{2BA7FA92-CDE5-4061-9A83-2B148238B4FA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA7FA92-CDE5-4061-9A83-2B148238B4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA7FA92-CDE5-4061-9A83-2B148238B4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA7FA92-CDE5-4061-9A83-2B148238B4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA7FA92-CDE5-4061-9A83-2B148238B4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BA7FA92-CDE5-4061-9A83-2B148238B4FA} = {06B48DF3-EA4E-4A7B-B64D-61820FE1E2C5}
 	EndGlobalSection
 EndGlobal
